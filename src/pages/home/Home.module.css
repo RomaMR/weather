@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherPanel {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.weatherPanelHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.weatherPanelHeaderLeft >* {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.weatherPanelHeaderTitle {
+    margin-top: 0;
+}
+
+.weatherPanelContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weatherPanelItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    max-width: 120px;
+}
+
+.weatherPanelItemActive {
+    border: 2px solid black;
+    border-radius: 10px;
+}
